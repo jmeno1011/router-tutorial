@@ -6,7 +6,20 @@ const Home = () => {
     <div>
       <h1>ホーム</h1>
       <p>一番、最初に見せるページです</p>
-      <Link to={"/about"}>紹介</Link>
+      <ul>
+        <li>
+          <Link to={"/about"}>紹介</Link>
+        </li>
+        <li>
+          <Link to={"/profiles/meno"}>menoのプロフィール</Link>
+        </li>
+        <li>
+          <Link to={"/profiles/gildong"}>gildongのプロフィール</Link>
+        </li>
+        <li>
+          <Link to={"/profiles/void"}>存在しないプロフィール</Link>
+        </li>
+      </ul>
     </div>
   );
 };
