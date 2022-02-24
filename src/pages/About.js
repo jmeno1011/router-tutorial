@@ -13,7 +13,6 @@ const About = () => {
 
   const onIncreaseMode = () => {
     const nextMode = mode === null || "null" ? 1 : parseInt(mode) + 1;
-    console.log(mode);
     setSearchParams({ mode: nextMode, detail });
   };
   return (
@@ -29,6 +28,5 @@ const About = () => {
     </div>
   );
 };
-
 
 export default About;
