@@ -19,6 +19,9 @@ const Home = () => {
         <li>
           <Link to={"/profiles/void"}>存在しないプロフィール</Link>
         </li>
+        <li>
+          <Link to={"/articles"}>コメント一覧</Link>
+        </li>
       </ul>
     </div>
   );
